@@ -3,5 +3,6 @@ public class _01_deneme {
 
 
         System.out.println("deneme5");
+        System.out.println("args = " );
     }
 }
