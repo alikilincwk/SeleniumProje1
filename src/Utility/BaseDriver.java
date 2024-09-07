@@ -10,8 +10,8 @@ public class BaseDriver {
 
     static {
         driver = new ChromeDriver();
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));//20sn mühlet: sayfayı yükleme mühleti
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));//20sn mühlet: elementi bulma mühleti
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
     }
 
