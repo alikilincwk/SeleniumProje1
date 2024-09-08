@@ -27,7 +27,7 @@ public class TC_0601 extends BaseDriver {
         MyFunc.wait(1);
 
         try {
-            Assert.assertTrue("Mesaj bulunamadı yazısı doğrulanamadı.", driver.findElement(By.xpath("//p[text()='Listelenecek mesaj bulunamadı.']")).getText().equals("Listelenecek mesaj bulunamadı."));
+            Assert.assertTrue("Mesaj bulunamadı yazısı doğrulanamadı.", driver.findElement(By.xpath("//div[@class='wbb_v8']//p")).getText().equals("Listelenecek mesaj bulunamadı."));
         }catch (NoSuchElementException e){
             MyFunc.wait(1);
         }
