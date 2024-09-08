@@ -16,7 +16,7 @@ public class TC_0404 extends BaseDriver {
 
         WebElement girisYap = driver.findElement(By.xpath("//div[@id= 'H_rl_v8']/a[2]"));
         girisYap.click();
-        MyFunc.wait(3);
+        MyFunc.wait(2);
 
         WebElement girisYapButonu = driver.findElement(By.xpath("(//form[@action='/akakcem/nojs/']//input)[9]"));
         girisYapButonu.click();

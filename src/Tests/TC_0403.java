@@ -17,7 +17,7 @@ public class TC_0403 extends BaseDriver {
 
         WebElement girisYap = driver.findElement(By.xpath("//div[@id= 'H_rl_v8']/a[2]"));
         girisYap.click();
-        MyFunc.wait(3);
+        MyFunc.wait(2);
 
         WebElement emailBilgisi = driver.findElement(By.xpath("(//form[@action='/akakcem/nojs/']//input)[6]"));
         emailBilgisi.sendKeys("yanlisMail@gmail.com");

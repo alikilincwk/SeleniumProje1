@@ -13,7 +13,7 @@ public class TC_0402 extends BaseDriver {
 
 
         driver.get("https://www.akakce.com/");
-        MyFunc.wait(3);
+        MyFunc.wait(2);
 
         WebElement girisYap = driver.findElement(By.xpath("//div[@id= 'H_rl_v8']/a[2]"));
         girisYap.click();
