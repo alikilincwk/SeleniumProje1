@@ -24,7 +24,7 @@ public class TC_0402 extends BaseDriver {
         MyFunc.wait(3);
 
         WebElement sifreBilgisi = driver.findElement(By.xpath("(//form[@action='/akakcem/nojs/']//input)[7]"));
-        sifreBilgisi.sendKeys("Testtest123");
+        sifreBilgisi.sendKeys("YanlisSifre");
         MyFunc.wait(3);
 
 
