@@ -18,11 +18,11 @@ public class TC_0702 {
         MyFunc.wait(2);
 
         WebElement eposta=driver.findElement(By.xpath("(//form[@id='FrmLi']//input)[3]"));
-        eposta.sendKeys("testerkurs202401@gmx.com");
+        eposta.sendKeys("alikilinc.gl@gmail.com");
         MyFunc.wait(2);
 
         WebElement password=driver.findElement(By.xpath("(//form[@id='FrmLi']//input)[4]"));
-        password.sendKeys("Sifre12345");
+        password.sendKeys("Testtest123");
         MyFunc.wait(2);
 
         WebElement girisyap=driver.findElement(By.xpath("//*[@id='lfb']"));
@@ -42,7 +42,7 @@ public class TC_0702 {
         MyFunc.wait(2);
 
         WebElement sifregir=driver.findElement(By.xpath("(//form[@id='FrmDu']//input)[2]"));
-        sifregir.sendKeys("Sifre12345");
+        sifregir.sendKeys("Testtest123");
 
         WebElement hesapsilbutonu=driver.findElement(By.xpath("//span[@class='tool']/input"));
         hesapsilbutonu.click();

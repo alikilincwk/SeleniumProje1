@@ -19,11 +19,11 @@ public class TC_0701 extends BaseDriver {
         MyFunc.wait(2);
 
         WebElement eposta=driver.findElement(By.xpath("(//form[@id='FrmLi']//input)[3]"));
-        eposta.sendKeys("testerkurs202401@gmx.com");
+        eposta.sendKeys("alikilinc.gl@gmail.com");
         MyFunc.wait(2);
 
         WebElement password=driver.findElement(By.xpath("(//form[@id='FrmLi']//input)[4]"));
-        password.sendKeys("Sifre12345");
+        password.sendKeys("Testtest123");
         MyFunc.wait(2);
 
         WebElement girisyap=driver.findElement(By.xpath("//*[@id='lfb']"));
