@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class TC_0403 extends BaseDriver {
+public class US04_TC03 extends BaseDriver {
     @Test
 
     public void test1(){

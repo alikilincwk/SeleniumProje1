@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 
-public class TC_0301 extends BaseDriver {
+public class US03_TC01 extends BaseDriver {
 
     @Test
     public void TC_0301() {

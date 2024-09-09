@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 
-public class TC_0201 extends BaseDriver {
+public class US02_TC01 extends BaseDriver {
     @Test
     public void TC0201() {
         String dataName = "Testisim";

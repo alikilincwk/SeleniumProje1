@@ -4,10 +4,9 @@ import Utility.BaseDriver;
 import Utility.MyFunc;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class TC_0701 extends BaseDriver {
+public class US07_TC01 extends BaseDriver {
 
     @Test
     public void Test1(){

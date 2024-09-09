@@ -7,9 +7,8 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TC_0501 extends BaseDriver {
+public class US05_TC01 extends BaseDriver {
 
     @Test
     public void test1(){

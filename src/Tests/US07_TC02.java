@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 import static Utility.BaseDriver.driver;
 
-public class TC_0702 {
+public class US07_TC02 {
     @Test
     public void Test1(){
         driver.get("https://www.akakce.com/");

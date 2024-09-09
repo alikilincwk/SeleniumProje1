@@ -7,7 +7,7 @@ import Utility.BaseDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 
-public class TC_0601 extends BaseDriver {
+public class US06_TC01 extends BaseDriver {
     @Test
     public void TC0601() {
         driver.get("https://www.akakce.com/");
